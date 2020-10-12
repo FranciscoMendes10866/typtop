@@ -12,7 +12,7 @@ Please make sure to update tests as appropriate.
 To compile your SASS code.
 
 ```bash
-npx gulp-cli Watch
+yarn start
 ```
 
 ## License
