@@ -5,7 +5,7 @@ import browserSync from 'browser-sync';
 
 // compile SCSS into CSS
 function Comp() {
-  return gulp.src('./scss/**/*.scss')
+  return gulp.src('./scss/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('./css'))
     .pipe(browserSync.create().stream());
