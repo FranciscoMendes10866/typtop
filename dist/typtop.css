@@ -2,14 +2,14 @@
 .b-navbar{display:flex;align-items:center;justify-content:space-between;background-color:#fff;padding:0 20px;box-shadow:0 0 20px 0 rgba(0,0,0,0.08);border-radius:16px;margin:20px}
 .b-navbar ul{display:flex;align-items:center;justify-content:center;list-style:none}
 .b-navbar ul li{padding-right:10px;padding-left:10px;padding-top:20px;padding-bottom:20px;text-transform:capitalize;cursor:pointer}
-.b-navbar ul li a{text-decoration:none;color:black;font-size:14px}.b-navbar-brand{width:100px}
-.b-navbar-actions{display:flex;align-items:center;justify-content:center}.b-navbar-actions button{margin-left:10px;font-size:12px}
-.b-navbar-actions a{text-decoration:none;color:black;margin-left:5px;margin-right:5px;font-size:14px}
+.b-navbar ul li a{text-decoration:none;color:#3f3f3f;font-size:14px}.b-navbar ul li a:hover{color:black;transition:.3s;font-weight:500}
+.b-navbar-brand{width:100px}.b-navbar-actions{display:flex;align-items:center;justify-content:center}
+.b-navbar-actions button{margin-left:10px;font-size:12px}.b-navbar-actions a{text-decoration:none;color:black;margin-left:5px;margin-right:5px;font-size:14px}
 .i-navbar{display:flex;align-items:center;justify-content:space-between;background-color:#fff;padding-left:20px;padding-right:20px;padding-top:10px;padding-bottom:10px;box-shadow:0 0 20px 0 rgba(0,0,0,0.08);border-radius:16px;margin:20px}
 .i-navbar input{background-color:rgba(243,243,243,0.562);border:0;border-radius:10px;padding:10px;padding-left:40px;padding-right:40px;text-align:center}
 .i-navbar input:focus{outline:0}.i-navbar-brand{width:100px}.i-navbar-actions{display:flex;align-items:center;justify-content:center}
-.i-navbar-actions button{margin-left:10px;font-size:12px}.i-navbar-actions a{text-decoration:none;color:black;padding:10px;font-size:14px}
-.filled_button{padding:12px 30px;background-color:#000;color:#fff;border:0;border-radius:10px;outline:0;font-weight:500;cursor:pointer}
+.i-navbar-actions button{margin-left:10px;font-size:12px}.i-navbar-actions a{text-decoration:none;color:#3f3f3f;padding:10px;font-size:14px}
+.i-navbar-actions a:hover{color:black;transition:.3s;font-weight:500}.filled_button{padding:12px 30px;background-color:#000;color:#fff;border:0;border-radius:10px;outline:0;font-weight:500;cursor:pointer}
 .filled_button:hover{transform:translateY(-5px);transition:.3s;box-shadow:0 3px 25px #818181}
 .outlined_button{padding:12px 30px;background-color:transparent;color:#000;border:2px solid #000;border-width:2px;font-weight:500;border-radius:10px;cursor:pointer}
 .outlined_button:hover{transform:translateY(-5px);transition:.3s;box-shadow:0 3px 25px #818181;background-color:#000;color:#fff}

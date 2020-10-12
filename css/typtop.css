@@ -27,8 +27,12 @@
       cursor: pointer; }
       .b-navbar ul li a {
         text-decoration: none;
-        color: black;
+        color: #3f3f3f;
         font-size: 14px; }
+        .b-navbar ul li a:hover {
+          color: black;
+          transition: 0.3s;
+          font-weight: 500; }
 
 .b-navbar-brand {
   width: 100px; }
@@ -82,9 +86,13 @@
     font-size: 12px; }
   .i-navbar-actions a {
     text-decoration: none;
-    color: black;
+    color: #3f3f3f;
     padding: 10px;
     font-size: 14px; }
+    .i-navbar-actions a:hover {
+      color: black;
+      transition: 0.3s;
+      font-weight: 500; }
 
 .filled_button {
   padding: 12px 30px;
