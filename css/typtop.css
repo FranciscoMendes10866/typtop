@@ -93,11 +93,28 @@
   border: 0px;
   border-radius: 10px;
   outline: none;
+  font-weight: 500;
   cursor: pointer; }
   .filled_button:hover {
     transform: translateY(-5px);
     transition: 0.3s;
-    box-shadow: 0px 3px 25px #e0e0e0; }
+    box-shadow: 0px 3px 25px #818181; }
+
+.outlined_button {
+  padding: 12px 30px;
+  background-color: transparent;
+  color: #000;
+  border: 2px solid #000;
+  border-width: 2px;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer; }
+  .outlined_button:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+    box-shadow: 0px 3px 25px #818181;
+    background-color: #000;
+    color: #fff; }
 
 .container {
   max-width: 960px;

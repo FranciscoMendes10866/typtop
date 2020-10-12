@@ -9,8 +9,10 @@
 .i-navbar input{background-color:rgba(243,243,243,0.562);border:0;border-radius:10px;padding:10px;padding-left:40px;padding-right:40px;text-align:center}
 .i-navbar input:focus{outline:0}.i-navbar-brand{width:100px}.i-navbar-actions{display:flex;align-items:center;justify-content:center}
 .i-navbar-actions button{margin-left:10px;font-size:12px}.i-navbar-actions a{text-decoration:none;color:black;padding:10px;font-size:14px}
-.filled_button{padding:12px 30px;background-color:#000;color:#fff;border:0;border-radius:10px;outline:0;cursor:pointer}
-.filled_button:hover{transform:translateY(-5px);transition:.3s;box-shadow:0 3px 25px #e0e0e0}
+.filled_button{padding:12px 30px;background-color:#000;color:#fff;border:0;border-radius:10px;outline:0;font-weight:500;cursor:pointer}
+.filled_button:hover{transform:translateY(-5px);transition:.3s;box-shadow:0 3px 25px #818181}
+.outlined_button{padding:12px 30px;background-color:transparent;color:#000;border:2px solid #000;border-width:2px;font-weight:500;border-radius:10px;cursor:pointer}
+.outlined_button:hover{transform:translateY(-5px);transition:.3s;box-shadow:0 3px 25px #818181;background-color:#000;color:#fff}
 .container{max-width:960px;margin-right:auto;margin-left:auto;padding-right:10px;padding-left:10px}
 .row{display:flex;flex-wrap:wrap;flex-direction:row}.col{flex-grow:1}.level{display:flex;flex-wrap:wrap;flex-direction:row;justify-content:space-around;padding-top:20px;padding-bottom:20px}
 .level-item{text-align:center}.section-sm{padding-top:50px;padding-bottom:50px}.section-md{padding-top:70px;padding-bottom:70px}
