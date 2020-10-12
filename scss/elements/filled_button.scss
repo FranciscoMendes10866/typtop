@@ -1,0 +1,14 @@
+.filled_button {
+    padding: 12px 30px;
+    background-color: #000;
+    color: #fff;
+    border: 0px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    &:hover {
+        transform: translateY(-5px);
+        transition: 0.3s;
+        box-shadow: 0px 3px 25px rgb(224, 224, 224);
+      }
+}

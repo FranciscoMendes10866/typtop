@@ -2,6 +2,49 @@
   margin: 0px;
   padding: 0px; }
 
+.b-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 0px 20px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  margin: 20px; }
+  .b-navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none; }
+    .b-navbar ul li {
+      padding: 20px;
+      font-weight: 500;
+      text-transform: capitalize;
+      cursor: pointer; }
+
+.b-navbar-brand {
+  width: 100px; }
+
+.b-navbar-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .b-navbar-actions button, .b-navbar-actions a {
+    margin-left: 10px; }
+
+.filled_button {
+  padding: 12px 30px;
+  background-color: #000;
+  color: #fff;
+  border: 0px;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer; }
+  .filled_button:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+    box-shadow: 0px 3px 25px #e0e0e0; }
+
 .container {
   max-width: 960px;
   margin-right: auto;

@@ -1,0 +1,35 @@
+.b-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 0px 20px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,.08);
+    border-radius: 16px;
+    margin: 20px;
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        li {
+            padding: 20px;
+            font-weight: 500;
+            text-transform: capitalize;
+            cursor: pointer;
+        }
+    }
+}
+
+.b-navbar-brand {
+    width: 100px;
+}
+
+.b-navbar-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button, a {
+        margin-left: 10px;
+    }
+}

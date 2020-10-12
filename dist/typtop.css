@@ -1,4 +1,10 @@
-*{margin:0;padding:0}.container{max-width:960px;margin-right:auto;margin-left:auto;padding-right:10px;padding-left:10px}
+*{margin:0;padding:0}.b-navbar{display:flex;align-items:center;justify-content:space-between;background-color:#fff;padding:0 20px;box-shadow:0 0 20px 0 rgba(0,0,0,0.08);border-radius:16px;margin:20px}
+.b-navbar ul{display:flex;align-items:center;justify-content:center;list-style:none}
+.b-navbar ul li{padding:20px;font-weight:500;text-transform:capitalize;cursor:pointer}
+.b-navbar-brand{width:100px}.b-navbar-actions{display:flex;align-items:center;justify-content:center}
+.b-navbar-actions button,.b-navbar-actions a{margin-left:10px}.filled_button{padding:12px 30px;background-color:#000;color:#fff;border:0;border-radius:10px;outline:0;cursor:pointer}
+.filled_button:hover{transform:translateY(-5px);transition:.3s;box-shadow:0 3px 25px #e0e0e0}
+.container{max-width:960px;margin-right:auto;margin-left:auto;padding-right:10px;padding-left:10px}
 .row{display:flex;flex-wrap:wrap;flex-direction:row}.col{flex-grow:1}.level{display:flex;flex-wrap:wrap;flex-direction:row;justify-content:space-around;padding-top:20px;padding-bottom:20px}
 .level-item{text-align:center}.section-sm{padding-top:50px;padding-bottom:50px}.section-md{padding-top:70px;padding-bottom:70px}
 .section-lg{padding-top:90px;padding-bottom:90px}.section-full{height:100vh}.section-full-nav{height:calc(100vh - 32px)}
