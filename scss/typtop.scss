@@ -1,7 +1,5 @@
-h1 {
-    color: white;
-}
-
-* {
-    background-color: blue;
-}
+@charset "utf-8";
+// Imports
+@import "base/reset";
+@import "layout/main";
+@import "typography/main";

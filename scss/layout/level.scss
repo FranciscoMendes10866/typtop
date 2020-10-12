@@ -1,0 +1,12 @@
+.level {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.level-item {
+    text-align: center;
+}
