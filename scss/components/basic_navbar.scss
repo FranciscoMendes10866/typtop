@@ -13,7 +13,10 @@
         justify-content: center;
         list-style: none;
         li {
-            padding: 20px;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-top: 20px;
+            padding-bottom: 20px;
             text-transform: capitalize;
             cursor: pointer;
             a {
@@ -33,9 +36,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    button {
-        margin-left: 10px;
-    }
     button {
         margin-left: 10px;
         font-size: 12px;

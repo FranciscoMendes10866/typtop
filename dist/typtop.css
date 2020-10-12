@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");*{font-family:'Poppins',sans-serif;margin:0;padding:0}
 .b-navbar{display:flex;align-items:center;justify-content:space-between;background-color:#fff;padding:0 20px;box-shadow:0 0 20px 0 rgba(0,0,0,0.08);border-radius:16px;margin:20px}
 .b-navbar ul{display:flex;align-items:center;justify-content:center;list-style:none}
-.b-navbar ul li{padding:20px;text-transform:capitalize;cursor:pointer}.b-navbar ul li a{text-decoration:none;color:black;font-size:14px}
-.b-navbar-brand{width:100px}.b-navbar-actions{display:flex;align-items:center;justify-content:center}
-.b-navbar-actions button{margin-left:10px}.b-navbar-actions button{margin-left:10px;font-size:12px}
+.b-navbar ul li{padding-right:10px;padding-left:10px;padding-top:20px;padding-bottom:20px;text-transform:capitalize;cursor:pointer}
+.b-navbar ul li a{text-decoration:none;color:black;font-size:14px}.b-navbar-brand{width:100px}
+.b-navbar-actions{display:flex;align-items:center;justify-content:center}.b-navbar-actions button{margin-left:10px;font-size:12px}
 .b-navbar-actions a{text-decoration:none;color:black;margin-left:5px;margin-right:5px;font-size:14px}
 .i-navbar{display:flex;align-items:center;justify-content:space-between;background-color:#fff;padding-left:20px;padding-right:20px;padding-top:10px;padding-bottom:10px;box-shadow:0 0 20px 0 rgba(0,0,0,0.08);border-radius:16px;margin:20px}
 .i-navbar input{background-color:rgba(243,243,243,0.562);border:0;border-radius:10px;padding:10px;padding-left:40px;padding-right:40px;text-align:center}

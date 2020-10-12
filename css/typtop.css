@@ -19,7 +19,10 @@
     justify-content: center;
     list-style: none; }
     .b-navbar ul li {
-      padding: 20px;
+      padding-right: 10px;
+      padding-left: 10px;
+      padding-top: 20px;
+      padding-bottom: 20px;
       text-transform: capitalize;
       cursor: pointer; }
       .b-navbar ul li a {
@@ -34,8 +37,6 @@
   display: flex;
   align-items: center;
   justify-content: center; }
-  .b-navbar-actions button {
-    margin-left: 10px; }
   .b-navbar-actions button {
     margin-left: 10px;
     font-size: 12px; }
