@@ -4,14 +4,14 @@ import uglifycss from 'gulp-uglifycss';
 import browserSync from 'browser-sync';
 
 // compile SCSS into CSS
-function Comp() {
+function compile() {
   return gulp.src('./scss/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('./css'))
     .pipe(browserSync.create().stream());
 }
 // minifies the css
-function Mini() {
+function Minify() {
   return gulp.src('./css/*.css')
     .pipe(uglifycss({
       maxLineLen: 80,
@@ -26,8 +26,8 @@ function Watch() {
       baseDir: './',
     },
   });
-  gulp.watch('./scss/**/*.scss', Comp);
-  gulp.watch('./css/*.css', Mini);
+  gulp.watch('./scss/**/*.scss', compile);
+  gulp.watch('./css/*.css', Minify);
   gulp.watch('./*.html').on('change', browserSync.create().reload);
 }
 
