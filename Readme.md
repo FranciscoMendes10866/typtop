@@ -12,13 +12,7 @@ Please make sure to update tests as appropriate.
 To compile your SASS code.
 
 ```bash
-npx gulp-cli sass
-```
-
-To compile your CSS code.
-
-```bash
-npx gulp-cli css
+npx gulp-cli Watch
 ```
 
 ## License
