@@ -1,0 +1,35 @@
+{
+  "name": "typtop-task-runner",
+  "version": "1.0.0",
+  "main": "gulpfile.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx gulp-cli Watch",
+    "lint": "eslint . --fix . --ext .ts"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.12",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglifycss": "^1.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.0",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/browser-sync": "^2.26.1",
+    "@types/gulp": "^4.0.7",
+    "@types/gulp-sass": "^4.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.4.0",
+    "@typescript-eslint/parser": "^4.4.0",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "ts-node-dev": "^1.0.0-pre.56",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^4.0.2"
+  }
+}
