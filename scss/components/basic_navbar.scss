@@ -14,9 +14,13 @@
         list-style: none;
         li {
             padding: 20px;
-            font-weight: 500;
             text-transform: capitalize;
             cursor: pointer;
+            a {
+                text-decoration: none;
+                color: black;
+                font-size: 14px;
+            }
         }
     }
 }
@@ -29,7 +33,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    button, a {
+    button {
         margin-left: 10px;
+    }
+    button {
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 14px;
     }
 }

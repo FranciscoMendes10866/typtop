@@ -1,8 +1,15 @@
-*{margin:0;padding:0}.b-navbar{display:flex;align-items:center;justify-content:space-between;background-color:#fff;padding:0 20px;box-shadow:0 0 20px 0 rgba(0,0,0,0.08);border-radius:16px;margin:20px}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");*{font-family:'Poppins',sans-serif;margin:0;padding:0}
+.b-navbar{display:flex;align-items:center;justify-content:space-between;background-color:#fff;padding:0 20px;box-shadow:0 0 20px 0 rgba(0,0,0,0.08);border-radius:16px;margin:20px}
 .b-navbar ul{display:flex;align-items:center;justify-content:center;list-style:none}
-.b-navbar ul li{padding:20px;font-weight:500;text-transform:capitalize;cursor:pointer}
+.b-navbar ul li{padding:20px;text-transform:capitalize;cursor:pointer}.b-navbar ul li a{text-decoration:none;color:black;font-size:14px}
 .b-navbar-brand{width:100px}.b-navbar-actions{display:flex;align-items:center;justify-content:center}
-.b-navbar-actions button,.b-navbar-actions a{margin-left:10px}.filled_button{padding:12px 30px;background-color:#000;color:#fff;border:0;border-radius:10px;outline:0;cursor:pointer}
+.b-navbar-actions button{margin-left:10px}.b-navbar-actions button{margin-left:10px;font-size:12px}
+.b-navbar-actions a{text-decoration:none;color:black;margin-left:5px;margin-right:5px;font-size:14px}
+.i-navbar{display:flex;align-items:center;justify-content:space-between;background-color:#fff;padding-left:20px;padding-right:20px;padding-top:15px;padding-bottom:15px;box-shadow:0 0 20px 0 rgba(0,0,0,0.08);border-radius:16px;margin:20px}
+.i-navbar input{background-color:rgba(243,243,243,0.562);border:0;border-radius:10px;padding:10px;padding-left:40px;padding-right:40px;text-align:center}
+.i-navbar input:focus{outline:0}.i-navbar-brand{width:100px}.i-navbar-actions{display:flex;align-items:center;justify-content:center}
+.i-navbar-actions button{margin-left:10px;font-size:12px}.i-navbar-actions a{text-decoration:none;color:black;padding:10px;font-size:14px}
+.filled_button{padding:12px 30px;background-color:#000;color:#fff;border:0;border-radius:10px;outline:0;cursor:pointer}
 .filled_button:hover{transform:translateY(-5px);transition:.3s;box-shadow:0 3px 25px #e0e0e0}
 .container{max-width:960px;margin-right:auto;margin-left:auto;padding-right:10px;padding-left:10px}
 .row{display:flex;flex-wrap:wrap;flex-direction:row}.col{flex-grow:1}.level{display:flex;flex-wrap:wrap;flex-direction:row;justify-content:space-around;padding-top:20px;padding-bottom:20px}
