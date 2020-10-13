@@ -251,6 +251,10 @@
       padding-bottom: 20px;
       text-transform: capitalize;
       cursor: pointer; }
+      .bottom_nav_basic ul li i {
+        transition: all .2s ease-in-out; }
+        .bottom_nav_basic ul li i:hover {
+          transform: scale(1.1); }
       .bottom_nav_basic ul li a {
         text-decoration: none;
         color: #3f3f3f;
@@ -268,10 +272,10 @@
   border-radius: 10px;
   outline: none;
   font-weight: 500;
-  cursor: pointer; }
+  cursor: pointer;
+  transition: all .2s ease-in-out; }
   .filled_button:hover {
     transform: translateY(-5px);
-    transition: 0.3s;
     box-shadow: 0px 3px 25px #818181; }
 
 .filled_button_icon {
@@ -282,13 +286,16 @@
   border-radius: 8px;
   outline: none;
   font-weight: 500;
-  cursor: pointer; }
+  cursor: pointer;
+  transition: all .2s ease-in-out; }
   .filled_button_icon i {
     color: #fff;
-    font-size: 14px; }
+    font-size: 14px;
+    transition: all .2s ease-in-out; }
+    .filled_button_icon i:hover {
+      transform: scale(1.1); }
   .filled_button_icon:hover {
     transform: translateY(-5px);
-    transition: 0.3s;
     box-shadow: 0px 3px 25px #818181; }
 
 .outlined_button {
@@ -299,10 +306,10 @@
   border-width: 2px;
   font-weight: 500;
   border-radius: 10px;
+  transition: all .2s ease-in-out;
   cursor: pointer; }
   .outlined_button:hover {
     transform: translateY(-5px);
-    transition: 0.3s;
     box-shadow: 0px 3px 25px #818181;
     background-color: #000;
     color: #fff; }
@@ -313,17 +320,18 @@
   border: 2px solid #000;
   border-width: 2px;
   font-weight: 500;
+  transition: all .2s ease-in-out;
   border-radius: 10px;
   cursor: pointer; }
   .outlined_button_icon i {
     color: #000;
-    font-size: 14px; }
+    font-size: 14px;
+    transition: all .2s ease-in-out; }
     .outlined_button_icon i:hover {
-      transition: 0.3s;
+      transform: scale(1.1);
       color: #fff; }
   .outlined_button_icon:hover {
     transform: translateY(-5px);
-    transition: 0.3s;
     box-shadow: 0px 3px 25px #818181;
     background-color: #000; }
 

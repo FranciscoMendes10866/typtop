@@ -24,6 +24,12 @@
             padding-bottom: 20px;
             text-transform: capitalize;
             cursor: pointer;
+            i {
+                transition: all .2s ease-in-out;
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
             a {
                 text-decoration: none;
                 color: rgb(63, 63, 63);
