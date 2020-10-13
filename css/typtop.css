@@ -286,8 +286,8 @@
     .bottom_nav_mobile ul li {
       padding-right: 10px;
       padding-left: 10px;
-      padding-top: 20px;
-      padding-bottom: 20px;
+      padding-top: 15px;
+      padding-bottom: 15px;
       text-transform: capitalize;
       cursor: pointer; }
       .bottom_nav_mobile ul li i {
@@ -304,7 +304,7 @@
           font-weight: 500; }
 
 .nav_button_up {
-  margin-top: -30px;
+  margin-top: -35px;
   transform: scale(1.2); }
 
 .bottom_nav_icons {
@@ -329,8 +329,8 @@
     .bottom_nav_icons ul li {
       padding-right: 20px;
       padding-left: 20px;
-      padding-top: 20px;
-      padding-bottom: 20px;
+      padding-top: 15px;
+      padding-bottom: 15px;
       text-transform: capitalize;
       cursor: pointer; }
       .bottom_nav_icons ul li a {
