@@ -23,7 +23,11 @@
 .navbar-end-actions ul li{text-transform:capitalize;cursor:pointer}.navbar-end-actions ul li a{text-decoration:none;color:#3f3f3f;padding:10px;font-size:14px}
 .navbar-end-actions ul li a:hover{color:black;transition:.3s;font-weight:500}.navbar-ham{display:flex;align-items:center;justify-content:space-between;background-color:#fff;padding-left:20px;padding-right:20px;padding-top:10px;padding-bottom:10px;box-shadow:0 0 20px 0 rgba(0,0,0,0.08);border-radius:16px;margin:20px}
 .navbar-ham-brand{width:100px}.navbar-ham-actions{display:flex;align-items:center;justify-content:center}
-.navbar-ham-actions button{margin-left:10px;font-size:12px}.filled_button{padding:12px 30px;background-color:#000;color:#fff;border:0;border-radius:10px;outline:0;font-weight:500;cursor:pointer}
+.navbar-ham-actions button{margin-left:10px;font-size:12px}.bottom_nav_basic{z-index:999;bottom:0;position:fixed;border-radius:16px 16px 0 0;padding-left:20px;padding-right:20px;padding-top:5px;padding-bottom:5px;box-shadow:0 0 30px 0 rgba(0,0,0,0.05);background-color:#fff;display:flex;justify-content:space-evenly;align-items:center}
+.bottom_nav_basic ul{display:flex;align-items:center;justify-content:center;list-style:none}
+.bottom_nav_basic ul li{padding-right:10px;padding-left:10px;padding-top:20px;padding-bottom:20px;text-transform:capitalize;cursor:pointer}
+.bottom_nav_basic ul li a{text-decoration:none;color:#3f3f3f;font-size:14px}.bottom_nav_basic ul li a:hover{color:black;transition:.3s;font-weight:500}
+.filled_button{padding:12px 30px;background-color:#000;color:#fff;border:0;border-radius:10px;outline:0;font-weight:500;cursor:pointer}
 .filled_button:hover{transform:translateY(-5px);transition:.3s;box-shadow:0 3px 25px #818181}
 .filled_button_icon{padding:10px 14px;background-color:#000;color:#fff;border:0;border-radius:8px;outline:0;font-weight:500;cursor:pointer}
 .filled_button_icon i{color:#fff;font-size:14px}.filled_button_icon:hover{transform:translateY(-5px);transition:.3s;box-shadow:0 3px 25px #818181}

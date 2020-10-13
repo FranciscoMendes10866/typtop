@@ -1,0 +1,39 @@
+.bottom_nav_basic {
+    z-index: 999;
+    bottom: 0;
+    position: fixed;
+    border-radius: 16px 16px 0px 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,.05);
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        li {
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-transform: capitalize;
+            cursor: pointer;
+            a {
+                text-decoration: none;
+                color: rgb(63, 63, 63);
+                font-size: 14px;
+                &:hover {
+                    color: black;
+                    transition: 0.3s;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
