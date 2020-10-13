@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");*{font-family:'Poppins',sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;margin:0;padding:0}
+@import url("https://fonts.googleapis.com/css?family=Poppins:400|Poppins:400");*{font-family:'Poppins',sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;margin:0;padding:0}
 .navbar-basic{display:flex;align-items:center;justify-content:space-between;background-color:#fff;padding:0 20px;box-shadow:0 0 20px 0 rgba(0,0,0,0.08);border-radius:16px;margin:20px}
 .navbar-basic ul{display:flex;align-items:center;justify-content:center;list-style:none}
 .navbar-basic ul li{padding-right:10px;padding-left:10px;padding-top:20px;padding-bottom:20px;text-transform:capitalize;cursor:pointer}
-.navbar-basic ul li a{text-decoration:none;color:#3f3f3f;font-size:14px}.navbar-basic ul li a:hover{color:black;transition:.3s;font-weight:500}
+.navbar-basic ul li a{text-decoration:none;color:#3f3f3f;font-size:14px}.navbar-basic ul li a:hover{color:black;transition:.3s}
 .navbar-basic-brand span{color:#000}.navbar-basic-actions{display:flex;align-items:center;justify-content:center}
 .navbar-basic-actions button{margin-left:10px;font-size:12px}.navbar-basic-actions a{text-decoration:none;color:black;margin-left:5px;margin-right:5px;font-size:14px}
 .navbar-input{display:flex;align-items:center;justify-content:space-between;background-color:#fff;padding-left:20px;padding-right:20px;padding-top:10px;padding-bottom:10px;box-shadow:0 0 20px 0 rgba(0,0,0,0.08);border-radius:16px;margin:20px}
@@ -10,29 +10,29 @@
 .navbar-input input:focus{outline:0}.navbar-input-brand span{color:#000}.navbar-input-actions{display:flex;align-items:center;justify-content:center}
 .navbar-input-actions button{margin-left:10px;font-size:12px}.navbar-input-actions ul{margin-left:20px;display:flex;align-items:center;justify-content:center;list-style:none}
 .navbar-input-actions ul li{text-transform:capitalize;cursor:pointer}.navbar-input-actions ul li a{text-decoration:none;color:#3f3f3f;padding:10px;font-size:14px}
-.navbar-input-actions ul li a:hover{color:black;transition:.3s;font-weight:500}.navbar-start{display:flex;align-items:center;justify-content:space-between;background-color:#fff;padding:0 20px;box-shadow:0 0 20px 0 rgba(0,0,0,0.08);border-radius:16px;margin:20px}
+.navbar-input-actions ul li a:hover{color:black;transition:.3s}.navbar-start{display:flex;align-items:center;justify-content:space-between;background-color:#fff;padding:0 20px;box-shadow:0 0 20px 0 rgba(0,0,0,0.08);border-radius:16px;margin:20px}
 .navbar-start-brand{display:flex;align-items:center;justify-content:center}.navbar-start-brand span{color:#000}
 .navbar-start-brand ul{margin-left:20px;display:flex;align-items:center;justify-content:center;list-style:none}
 .navbar-start-brand ul li{padding-right:10px;padding-left:10px;padding-top:20px;padding-bottom:20px;text-transform:capitalize;cursor:pointer}
-.navbar-start-brand ul li a{text-decoration:none;color:#3f3f3f;font-size:14px}.navbar-start-brand ul li a:hover{color:black;transition:.3s;font-weight:500}
+.navbar-start-brand ul li a{text-decoration:none;color:#3f3f3f;font-size:14px}.navbar-start-brand ul li a:hover{color:black;transition:.3s}
 .navbar-start-actions{display:flex;align-items:center;justify-content:center}.navbar-start-actions button{margin-left:10px;font-size:12px}
 .navbar-start-actions a{text-decoration:none;color:black;margin-left:5px;margin-right:5px;font-size:14px}
 .navbar-end{display:flex;align-items:center;justify-content:space-between;background-color:#fff;padding-left:20px;padding-right:20px;padding-top:10px;padding-bottom:10px;box-shadow:0 0 20px 0 rgba(0,0,0,0.08);border-radius:16px;margin:20px}
 .navbar-end-brand{width:100px}.navbar-end-actions{display:flex;align-items:center;justify-content:center}
 .navbar-end-actions button{margin-left:10px;font-size:12px}.navbar-end-actions ul{margin-left:20px;display:flex;align-items:center;justify-content:center;list-style:none}
 .navbar-end-actions ul li{text-transform:capitalize;cursor:pointer}.navbar-end-actions ul li a{text-decoration:none;color:#3f3f3f;padding:10px;font-size:14px}
-.navbar-end-actions ul li a:hover{color:black;transition:.3s;font-weight:500}.navbar-ham{display:flex;align-items:center;justify-content:space-between;background-color:#fff;padding-left:20px;padding-right:20px;padding-top:10px;padding-bottom:10px;box-shadow:0 0 20px 0 rgba(0,0,0,0.08);border-radius:16px;margin:20px}
+.navbar-end-actions ul li a:hover{color:black;transition:.3s}.navbar-ham{display:flex;align-items:center;justify-content:space-between;background-color:#fff;padding-left:20px;padding-right:20px;padding-top:10px;padding-bottom:10px;box-shadow:0 0 20px 0 rgba(0,0,0,0.08);border-radius:16px;margin:20px}
 .navbar-ham-brand{width:100px}.navbar-ham-actions{display:flex;align-items:center;justify-content:center}
 .navbar-ham-actions button{margin-left:10px;font-size:12px}.bottom_nav_basic{z-index:999;bottom:0;position:fixed;border-radius:16px 16px 0 0;padding-left:20px;padding-right:20px;padding-top:5px;padding-bottom:5px;box-shadow:0 0 30px 0 rgba(0,0,0,0.05);background-color:#fff;display:flex;justify-content:space-evenly;align-items:center}
 .bottom_nav_basic ul{display:flex;align-items:center;justify-content:center;list-style:none}
 .bottom_nav_basic ul li{padding-right:10px;padding-left:10px;padding-top:20px;padding-bottom:20px;text-transform:capitalize;cursor:pointer}
 .bottom_nav_basic ul li i{transition:all .2s ease-in-out}.bottom_nav_basic ul li i:hover{transform:scale(1.1)}
-.bottom_nav_basic ul li a{text-decoration:none;color:#3f3f3f;font-size:14px}.bottom_nav_basic ul li a:hover{color:black;transition:.3s;font-weight:500}
+.bottom_nav_basic ul li a{text-decoration:none;color:#3f3f3f;font-size:14px}.bottom_nav_basic ul li a:hover{color:black;transition:.3s}
 .bottom_nav_mobile{z-index:999;bottom:0;position:fixed;border-radius:16px 16px 0 0;padding-left:20px;padding-right:20px;padding-top:5px;padding-bottom:5px;box-shadow:0 0 30px 0 rgba(0,0,0,0.05);background-color:#fff;display:flex;justify-content:space-evenly;align-items:center}
 .bottom_nav_mobile ul{display:flex;align-items:center;justify-content:center;list-style:none}
 .bottom_nav_mobile ul li{padding-right:10px;padding-left:10px;padding-top:15px;padding-bottom:15px;text-transform:capitalize;cursor:pointer}
 .bottom_nav_mobile ul li i{transition:all .2s ease-in-out}.bottom_nav_mobile ul li i:hover{transform:scale(1.1)}
-.bottom_nav_mobile ul li a{text-decoration:none;color:#3f3f3f;font-size:14px}.bottom_nav_mobile ul li a:hover{color:black;transition:.3s;font-weight:500}
+.bottom_nav_mobile ul li a{text-decoration:none;color:#3f3f3f;font-size:14px}.bottom_nav_mobile ul li a:hover{color:black;transition:.3s}
 .nav_button_up{margin-top:-35px;transform:scale(1.2)}.bottom_nav_icons{z-index:999;bottom:0;position:fixed;border-radius:16px 16px 0 0;padding-left:20px;padding-right:20px;padding-top:5px;padding-bottom:5px;box-shadow:0 0 30px 0 rgba(0,0,0,0.05);background-color:#fff;display:flex;justify-content:space-evenly;align-items:center}
 .bottom_nav_icons ul{display:flex;align-items:center;justify-content:center;list-style:none}
 .bottom_nav_icons ul li{padding-right:20px;padding-left:20px;padding-top:15px;padding-bottom:15px;text-transform:capitalize;cursor:pointer}
@@ -150,4 +150,7 @@
 .row.show-lg-only{display:-webkit-flex !important;display:-ms-flexbox !important;display:flex !important}
 .hide-lg-only{display:none !important}}@media only screen and (min-width:121rem){.show-xl{display:block !important}
 .row.show-xl{display:-webkit-flex !important;display:-ms-flexbox !important;display:flex !important}
-.hide-xl{display:none !important}}
+.hide-xl{display:none !important}}body{font-weight:400;line-height:1.65}p{margin-bottom:1.15rem}
+h1,h2,h3,h4,h5{margin:2.75rem 0 1.05rem;font-weight:400;line-height:1.15}h1{margin-top:0;font-size:3.052em}
+h2{font-size:2.441em}h3{font-size:1.953em}h4{font-size:1.563em}h5{font-size:1.25em}
+small,.text_small{font-size:.8em}

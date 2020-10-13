@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400|Poppins:400");
 * {
   font-family: 'Poppins', sans-serif;
   -ms-text-size-adjust: 100%;
@@ -35,8 +35,7 @@
         font-size: 14px; }
         .navbar-basic ul li a:hover {
           color: black;
-          transition: 0.3s;
-          font-weight: 500; }
+          transition: 0.3s; }
 
 .navbar-basic-brand span {
   color: #000; }
@@ -104,8 +103,7 @@
         font-size: 14px; }
         .navbar-input-actions ul li a:hover {
           color: black;
-          transition: 0.3s;
-          font-weight: 500; }
+          transition: 0.3s; }
 
 .navbar-start {
   display: flex;
@@ -142,8 +140,7 @@
         font-size: 14px; }
         .navbar-start-brand ul li a:hover {
           color: black;
-          transition: 0.3s;
-          font-weight: 500; }
+          transition: 0.3s; }
 
 .navbar-start-actions {
   display: flex;
@@ -198,8 +195,7 @@
         font-size: 14px; }
         .navbar-end-actions ul li a:hover {
           color: black;
-          transition: 0.3s;
-          font-weight: 500; }
+          transition: 0.3s; }
 
 .navbar-ham {
   display: flex;
@@ -261,8 +257,7 @@
         font-size: 14px; }
         .bottom_nav_basic ul li a:hover {
           color: black;
-          transition: 0.3s;
-          font-weight: 500; }
+          transition: 0.3s; }
 
 .bottom_nav_mobile {
   z-index: 999;
@@ -300,8 +295,7 @@
         font-size: 14px; }
         .bottom_nav_mobile ul li a:hover {
           color: black;
-          transition: 0.3s;
-          font-weight: 500; }
+          transition: 0.3s; }
 
 .nav_button_up {
   margin-top: -35px;
@@ -1164,3 +1158,34 @@
     display: flex !important; }
   .hide-xl {
     display: none !important; } }
+
+body {
+  font-weight: 400;
+  line-height: 1.65; }
+
+p {
+  margin-bottom: 1.15rem; }
+
+h1, h2, h3, h4, h5 {
+  margin: 2.75rem 0 1.05rem;
+  font-weight: 400;
+  line-height: 1.15; }
+
+h1 {
+  margin-top: 0;
+  font-size: 3.052em; }
+
+h2 {
+  font-size: 2.441em; }
+
+h3 {
+  font-size: 1.953em; }
+
+h4 {
+  font-size: 1.563em; }
+
+h5 {
+  font-size: 1.25em; }
+
+small, .text_small {
+  font-size: 0.8em; }
