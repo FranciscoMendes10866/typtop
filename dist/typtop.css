@@ -1,18 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");*{font-family:'Poppins',sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;margin:0;padding:0}
-.b-navbar{display:flex;align-items:center;justify-content:space-between;background-color:#fff;padding:0 20px;box-shadow:0 0 20px 0 rgba(0,0,0,0.08);border-radius:16px;margin:20px}
-.b-navbar ul{display:flex;align-items:center;justify-content:center;list-style:none}
-.b-navbar ul li{padding-right:10px;padding-left:10px;padding-top:20px;padding-bottom:20px;text-transform:capitalize;cursor:pointer}
-.b-navbar ul li a{text-decoration:none;color:#3f3f3f;font-size:14px}.b-navbar ul li a:hover{color:black;transition:.3s;font-weight:500}
-.b-navbar-brand{width:100px}.b-navbar-actions{display:flex;align-items:center;justify-content:center}
-.b-navbar-actions button{margin-left:10px;font-size:12px}.b-navbar-actions a{text-decoration:none;color:black;margin-left:5px;margin-right:5px;font-size:14px}
-.i-navbar{display:flex;align-items:center;justify-content:space-between;background-color:#fff;padding-left:20px;padding-right:20px;padding-top:10px;padding-bottom:10px;box-shadow:0 0 20px 0 rgba(0,0,0,0.08);border-radius:16px;margin:20px}
-.i-navbar input{background-color:rgba(243,243,243,0.562);border:0;border-radius:10px;padding:10px;padding-left:40px;padding-right:40px;text-align:center}
-.i-navbar input:focus{outline:0}.i-navbar-brand{width:100px}.i-navbar-actions{display:flex;align-items:center;justify-content:center}
-.i-navbar-actions button{margin-left:10px;font-size:12px}.i-navbar-actions a{text-decoration:none;color:#3f3f3f;padding:10px;font-size:14px}
-.i-navbar-actions a:hover{color:black;transition:.3s;font-weight:500}.filled_button{padding:12px 30px;background-color:#000;color:#fff;border:0;border-radius:10px;outline:0;font-weight:500;cursor:pointer}
+.navbar-basic{display:flex;align-items:center;justify-content:space-between;background-color:#fff;padding:0 20px;box-shadow:0 0 20px 0 rgba(0,0,0,0.08);border-radius:16px;margin:20px}
+.navbar-basic ul{display:flex;align-items:center;justify-content:center;list-style:none}
+.navbar-basic ul li{padding-right:10px;padding-left:10px;padding-top:20px;padding-bottom:20px;text-transform:capitalize;cursor:pointer}
+.navbar-basic ul li a{text-decoration:none;color:#3f3f3f;font-size:14px}.navbar-basic ul li a:hover{color:black;transition:.3s;font-weight:500}
+.navbar-basic-brand span{color:#000}.navbar-basic-actions{display:flex;align-items:center;justify-content:center}
+.navbar-basic-actions button{margin-left:10px;font-size:12px}.navbar-basic-actions a{text-decoration:none;color:black;margin-left:5px;margin-right:5px;font-size:14px}
+.navbar-input{display:flex;align-items:center;justify-content:space-between;background-color:#fff;padding-left:20px;padding-right:20px;padding-top:10px;padding-bottom:10px;box-shadow:0 0 20px 0 rgba(0,0,0,0.08);border-radius:16px;margin:20px}
+.navbar-input input{background-color:rgba(243,243,243,0.562);border:0;border-radius:10px;padding:10px;padding-left:40px;padding-right:40px;text-align:center}
+.navbar-input input:focus{outline:0}.navbar-input-brand span{color:#000}.navbar-input-actions{display:flex;align-items:center;justify-content:center}
+.navbar-input-actions button{margin-left:10px;font-size:12px}.navbar-input-actions ul{margin-left:20px;display:flex;align-items:center;justify-content:center;list-style:none}
+.navbar-input-actions ul li{text-transform:capitalize;cursor:pointer}.navbar-input-actions ul li a{text-decoration:none;color:#3f3f3f;padding:10px;font-size:14px}
+.navbar-input-actions ul li a:hover{color:black;transition:.3s;font-weight:500}.navbar-start{display:flex;align-items:center;justify-content:space-between;background-color:#fff;padding:0 20px;box-shadow:0 0 20px 0 rgba(0,0,0,0.08);border-radius:16px;margin:20px}
+.navbar-start-brand{display:flex;align-items:center;justify-content:center}.navbar-start-brand span{color:#000}
+.navbar-start-brand ul{margin-left:20px;display:flex;align-items:center;justify-content:center;list-style:none}
+.navbar-start-brand ul li{padding-right:10px;padding-left:10px;padding-top:20px;padding-bottom:20px;text-transform:capitalize;cursor:pointer}
+.navbar-start-brand ul li a{text-decoration:none;color:#3f3f3f;font-size:14px}.navbar-start-brand ul li a:hover{color:black;transition:.3s;font-weight:500}
+.navbar-start-actions{display:flex;align-items:center;justify-content:center}.navbar-start-actions button{margin-left:10px;font-size:12px}
+.navbar-start-actions a{text-decoration:none;color:black;margin-left:5px;margin-right:5px;font-size:14px}
+.navbar-end{display:flex;align-items:center;justify-content:space-between;background-color:#fff;padding-left:20px;padding-right:20px;padding-top:10px;padding-bottom:10px;box-shadow:0 0 20px 0 rgba(0,0,0,0.08);border-radius:16px;margin:20px}
+.navbar-end-brand{width:100px}.navbar-end-actions{display:flex;align-items:center;justify-content:center}
+.navbar-end-actions button{margin-left:10px;font-size:12px}.navbar-end-actions ul{margin-left:20px;display:flex;align-items:center;justify-content:center;list-style:none}
+.navbar-end-actions ul li{text-transform:capitalize;cursor:pointer}.navbar-end-actions ul li a{text-decoration:none;color:#3f3f3f;padding:10px;font-size:14px}
+.navbar-end-actions ul li a:hover{color:black;transition:.3s;font-weight:500}.navbar-ham{display:flex;align-items:center;justify-content:space-between;background-color:#fff;padding-left:20px;padding-right:20px;padding-top:10px;padding-bottom:10px;box-shadow:0 0 20px 0 rgba(0,0,0,0.08);border-radius:16px;margin:20px}
+.navbar-ham-brand{width:100px}.navbar-ham-actions{display:flex;align-items:center;justify-content:center}
+.navbar-ham-actions button{margin-left:10px;font-size:12px}.filled_button{padding:12px 30px;background-color:#000;color:#fff;border:0;border-radius:10px;outline:0;font-weight:500;cursor:pointer}
 .filled_button:hover{transform:translateY(-5px);transition:.3s;box-shadow:0 3px 25px #818181}
+.filled_button_icon{padding:10px 14px;background-color:#000;color:#fff;border:0;border-radius:8px;outline:0;font-weight:500;cursor:pointer}
+.filled_button_icon i{color:#fff;font-size:14px}.filled_button_icon:hover{transform:translateY(-5px);transition:.3s;box-shadow:0 3px 25px #818181}
 .outlined_button{padding:12px 30px;background-color:transparent;color:#000;border:2px solid #000;border-width:2px;font-weight:500;border-radius:10px;cursor:pointer}
 .outlined_button:hover{transform:translateY(-5px);transition:.3s;box-shadow:0 3px 25px #818181;background-color:#000;color:#fff}
+.outlined_button_icon{padding:8px 12px;background-color:transparent;border:2px solid #000;border-width:2px;font-weight:500;border-radius:10px;cursor:pointer}
+.outlined_button_icon i{color:#000;font-size:14px}.outlined_button_icon i:hover{transition:.3s;color:#fff}
+.outlined_button_icon:hover{transform:translateY(-5px);transition:.3s;box-shadow:0 3px 25px #818181;background-color:#000}
 .container{max-width:960px;margin-right:auto;margin-left:auto;padding-right:10px;padding-left:10px}
 .row{display:flex;flex-wrap:wrap;flex-direction:row}.col{flex-grow:1}.level{display:flex;flex-wrap:wrap;flex-direction:row;justify-content:space-around;padding-top:20px;padding-bottom:20px}
 .level-item{text-align:center}.section-sm{padding-top:50px;padding-bottom:50px}.section-md{padding-top:70px;padding-bottom:70px}

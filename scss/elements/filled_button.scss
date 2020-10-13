@@ -1,15 +1,35 @@
 .filled_button {
-    padding: 12px 30px;
-    background-color: #000;
+  padding: 12px 30px;
+  background-color: #000;
+  color: #fff;
+  border: 0px;
+  border-radius: 10px;
+  outline: none;
+  font-weight: 500;
+  cursor: pointer;
+  &:hover {
+      transform: translateY(-5px);
+      transition: 0.3s;
+      box-shadow: 0px 3px 25px rgb(129, 129, 129);
+    }
+}
+
+.filled_button_icon {
+  padding: 10px 14px;
+  background-color: #000;
+  color: #fff;
+  border: 0px;
+  border-radius: 8px;
+  outline: none;
+  font-weight: 500;
+  cursor: pointer;
+  i {
     color: #fff;
-    border: 0px;
-    border-radius: 10px;
-    outline: none;
-    font-weight: 500;
-    cursor: pointer;
-    &:hover {
-        transform: translateY(-5px);
-        transition: 0.3s;
-        box-shadow: 0px 3px 25px rgb(129, 129, 129);
-      }
+    font-size: 14px;
+  }
+  &:hover {
+      transform: translateY(-5px);
+      transition: 0.3s;
+      box-shadow: 0px 3px 25px rgb(129, 129, 129);
+    }
 }
