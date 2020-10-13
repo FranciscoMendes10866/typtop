@@ -264,6 +264,49 @@
           transition: 0.3s;
           font-weight: 500; }
 
+.bottom_nav_mobile {
+  z-index: 999;
+  bottom: 0;
+  position: fixed;
+  border-radius: 16px 16px 0px 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  .bottom_nav_mobile ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none; }
+    .bottom_nav_mobile ul li {
+      padding-right: 10px;
+      padding-left: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      text-transform: capitalize;
+      cursor: pointer; }
+      .bottom_nav_mobile ul li i {
+        transition: all .2s ease-in-out; }
+        .bottom_nav_mobile ul li i:hover {
+          transform: scale(1.1); }
+      .bottom_nav_mobile ul li a {
+        text-decoration: none;
+        color: #3f3f3f;
+        font-size: 14px; }
+        .bottom_nav_mobile ul li a:hover {
+          color: black;
+          transition: 0.3s;
+          font-weight: 500; }
+
+.nav_button_up {
+  margin-top: -20px;
+  transform: scale(1.1); }
+
 .filled_button {
   padding: 12px 30px;
   background-color: #000;
