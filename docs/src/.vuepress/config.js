@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'typtop',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -34,7 +34,7 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
+        text: 'Docs',
         link: '/guide/',
       },
       {
@@ -42,18 +42,17 @@ module.exports = {
         link: '/config/'
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'Github',
+        link: 'https://github.com/FranciscoMendes10866/typtop'
       }
     ],
     sidebar: {
       '/guide/': [
         {
-          title: 'Guide',
+          title: 'Getting started',
           collapsable: false,
           children: [
-            '',
-            'using-vue',
+            ''
           ]
         }
       ],
